@@ -2,13 +2,11 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">
-      <svg-icon icon-class="wx"></svg-icon>
       <!-- <svg>
         <use xlink:href="#icon-wx"></use>
       </svg> -->
       Home</router-link> |
       <router-link to="/about">
-      <svg-icon icon-class="qq"></svg-icon>
       About</router-link>
     </div>
     <!-- <p @click="$store.commit('add')">{{$store.state.counter}}</p>
