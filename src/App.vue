@@ -2,23 +2,24 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">
-      <!-- <svg>
+        <!-- <svg>
         <use xlink:href="#icon-wx"></use>
       </svg> -->
-      Home</router-link> |
+        Home
+      </router-link> |
       <router-link to="/about">
-      About</router-link>
+        About</router-link>
     </div>
     <!-- <p @click="$store.commit('add')">{{$store.state.counter}}</p>
     <p @click="$store.dispatch('add')">async: {{$store.state.counter}}</p> -->
     <!-- <p>doubleCounter: {{$store.getters.doubleCounter}}</p> -->
-    <router-view/>
+    <router-view />
   </div>
 </template>
 <script>
 // import '@/icons/svg/wx.svg'
 export default {
-  
+
 }
 </script>
 <style>

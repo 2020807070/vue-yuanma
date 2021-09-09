@@ -15,7 +15,6 @@ class VueRouter  {
 
     // usage:
     // Vue.util.defineReactive(obj,key,value,fn)
-    
     // obj: 目标对象，
     // key: 目标对象属性；
     // value: 属性值
@@ -38,7 +37,7 @@ VueRouter.install = function(_Vue) {
     beforeCreate() {
       // 任务1：挂载$router
       // 以后每个组件都会调用该方法
-      console.log('$options.router', this.$options.router)
+      // console.log('$options.router', this.$options.router)
       if (this.$options.router) {
         // 此时的上下文this是当前组件实例
         Vue.prototype.$router = this.$options.router;
