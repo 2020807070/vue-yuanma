@@ -10,8 +10,8 @@
       <router-link to="/about">
         About</router-link>
     </div>
-    <!-- <p @click="$store.commit('add')">{{$store.state.counter}}</p>
-    <p @click="$store.dispatch('add')">async: {{$store.state.counter}}</p> -->
+    <p @click="$store.commit('add')">{{$store.state.counter}}</p>
+    <p @click="$store.dispatch('add')">async: {{$store.state.counter}}</p>
     <!-- <p>doubleCounter: {{$store.getters.doubleCounter}}</p> -->
     <router-view />
   </div>
